@@ -35,7 +35,7 @@ sortedItems = sorter(data_json)
 #     swd1.write(json.loads(json.dumps(sortedItems)))
 #     swd1.close()
 
-with open("standWiseData.json","w+") as swd1:
-    json.dump(sortedItems, swd1)
+# with open("standWiseData.json","w+") as swd1:
+#     json.dump(sortedItems, swd1)
 
-print(sorter(data_json))
+print(sortedItems)
